@@ -24,16 +24,3 @@
   font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
-.started_btn {
-  width: 326px;
-  height: 66px;
-  background-color: rgb(63, 191, 191);
-  border-radius: 10px;
-  position: absolute;
-  border: none;
-  bottom: 65px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  color: white;
-}

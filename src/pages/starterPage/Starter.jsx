@@ -1,6 +1,7 @@
 import React from "react";
 import "./starter.css";
 import logo from "../../main_img.png";
+import Button from "../../components/btn/Button";
 
 const Starter = () => {
   return (
@@ -14,7 +15,7 @@ const Starter = () => {
           consectetur. Ut quis id risus elit.
         </p>
       </div>
-      <button className="started_btn">Get Started</button>
+      <Button>Get Started</Button>
     </div>
   );
 };

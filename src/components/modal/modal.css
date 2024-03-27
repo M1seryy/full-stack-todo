@@ -1,0 +1,39 @@
+.modalWrapper {
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  border: 3px solid rgb(63, 191, 191);
+  background-color: white;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay {
+  z-index: 1;
+  position: fixed; /* Sit on top of the page content */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+}
+
+.todoInput {
+  width: 80%;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid rgb(63, 191, 191);
+  padding: 5px;
+}

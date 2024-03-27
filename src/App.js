@@ -1,13 +1,19 @@
+import { Provider } from "react-redux";
 import "./App.css";
 import Login from "./pages/auth/login/Login";
+import Main from "./pages/main/Main";
 import Starter from "./pages/starterPage/Starter";
+import { store } from "./redux/store";
 
 function App() {
   return (
-    <div className="App">
-      {/* <Starter /> */}
-      <Login />
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        {/* <Starter /> */}
+        {/* <Login /> */}
+        <Main />
+      </div>
+    </Provider>
   );
 }
 

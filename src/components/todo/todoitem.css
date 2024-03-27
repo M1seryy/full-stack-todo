@@ -1,0 +1,15 @@
+.todo {
+  justify-content: space-between;
+  display: flex;
+}
+
+.todo_text {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.delete {
+  border: none;
+}
